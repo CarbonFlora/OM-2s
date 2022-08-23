@@ -114,3 +114,10 @@ main {
 img {
   box-shadow: 3px 3px 0 rgba(77, 73, 62, 0.6);
 }
+
+.menubar {
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: auto auto auto auto auto;
+  column-gap: 1rem;
+}
