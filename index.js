@@ -9,7 +9,8 @@ const adapter = new JSONFile(file)
 const db = new Low(adapter)
 
 await db.read()
-db.data ||= { posts: [] }
-// db.data = db.data || { posts: [] } // for node < v15.x
+db.data ||= { posts: [] } 
 
+const { posts } = db.data
+posts.push({name:'partname2',id:'partname3'})
 await db.write()
