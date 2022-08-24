@@ -115,6 +115,21 @@ img {
   box-shadow: 3px 3px 0 rgba(77, 73, 62, 0.6);
 }
 
+input {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  padding: 0.4rem 1rem;
+  background-color: rgba(220,216,192,.5);
+  color: #4D493E;
+  box-sizing: content-box;
+  position: relative;
+  border: 1px solid transparent;
+  border-left: none;
+  border-right: none;
+  width: 95%;
+}
+
 .menubar {
   display: grid;
   grid-template-rows: 1;
